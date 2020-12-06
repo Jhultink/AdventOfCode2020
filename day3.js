@@ -1,4 +1,3 @@
-const { transcode } = require('buffer');
 const fs = require('fs')
 
 console.log(process.cwd())
