@@ -1,7 +1,4 @@
 const fs = require("fs");
-
-console.log(process.cwd());
-
 const raw = fs.readFileSync("input.txt").toString();
 let lines = raw.split("\r\n");
 

@@ -1,9 +1,4 @@
 const fs = require("fs");
-const { maxHeaderSize } = require("http");
-const { off } = require("process");
-
-console.log(process.cwd());
-
 let raw = fs.readFileSync("input.txt").toString();
 let lines = raw.split("\n");
 

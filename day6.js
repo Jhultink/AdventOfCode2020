@@ -1,9 +1,4 @@
 const fs = require("fs");
-const { maxHeaderSize } = require("http");
-const { off } = require("process");
-const { createBrotliCompress } = require("zlib");
-
-console.log(process.cwd());
 
 part2();
 
